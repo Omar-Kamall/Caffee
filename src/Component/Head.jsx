@@ -2,7 +2,7 @@ import img3 from '../assets/coffee-hero-section.png'
 
 const Head = () => {
     return (
-        <header className="bg-[#3F181C]">
+        <header className="bg-[#3F181C] pt-15!">
             <div className="container mx-auto! loading overflow-y-hidden px-5! h-[100vh] items-center grid grid-cols-1 md:grid-cols-2">
                 <div className="flex flex-col gap-3">
                     <h3 className="text-4xl font-bold font-mono text-orange-400">Best Coffee</h3>

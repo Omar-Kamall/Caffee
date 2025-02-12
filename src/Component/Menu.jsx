@@ -41,7 +41,7 @@ const Menu = () => {
         },
     ];
     return (
-        <section className="bg-[#252525] pb-20!">
+        <section className="bg-[#252525] pb-20! pt-15!">
             <div className="text-white loading">
             <div className="flex flex-col items-center text-center font-bold capitalize text-3xl pt-10! mb-10!">
                 <h1>Our Menu</h1>

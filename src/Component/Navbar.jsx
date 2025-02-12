@@ -1,4 +1,4 @@
-import { img12, img3 } from "../assets/photo";
+import { img12 , img3 } from "../assets/photo";
 import { Link } from 'react-router-dom';
 import { FaBars } from "react-icons/fa";
 import { useState } from 'react';
@@ -15,7 +15,7 @@ const links = [
 const Navbar = () => {
     const [openNav , setOpenNav] = useState(false);
     return (
-        <div className="bg-[#3F181C] h-15 w-full">
+        <div className="bg-[#3F181C] h-15 w-full fixed z-10">
             <nav className="container mx-auto! px-5! flex justify-between items-center h-full">
                 <div className="flex gap-4">
                     <Link to={'/'}><img className="w-10 h-10" loading="lazy" src={img12} alt={img3} /></Link>

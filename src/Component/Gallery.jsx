@@ -10,8 +10,8 @@ const Gallery = () => {
         { id: 6, img: img11 },
     ];
     return (
-        <section className="bg-[#3F181C] px-5! pb-15!">
-            <div className="loading">
+        <section className="bg-[#3F181C] px-5! pb-15! pt-15!">
+            <div className="loading z-5">
                 <div className="flex flex-col items-center text-center font-bold capitalize text-3xl pt-10! mb-10!">
                     <h1 className="text-white">Gallery</h1>
                     <div className="bg-orange-400 w-[100px] h-[2px] mt-3!"></div>

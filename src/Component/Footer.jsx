@@ -44,7 +44,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="bg-gray-800 h-[2px] w-full mt-2!"></div>
-                <div className="container mx-auto! grid grid-cols-1 md:grid-cols-2">
+                <div className="container mx-auto! grid grid-cols-2 md:grid-cols-2">
                     <div className="flex items-center gap-4 mt-5!">
                         <FaFacebookSquare size={20} color='#FF6900'/>
                         <SlSocialInstagram size={20} color='#FF6900'/>
@@ -52,7 +52,7 @@ const Footer = () => {
                         <TiSocialTwitter size={20} color='#FF6900'/>
                     </div>
                     <div className="text-gray-300 flex justify-end items-end">
-                        <span>© 2025 Omar Kamal. All Rights Reserved.</span>
+                        <span>© 2025 Omar Kamal</span>
                     </div>
                 </div>
             </div>

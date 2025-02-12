@@ -1,7 +1,7 @@
 
 const Contact = () => {
     return (
-        <section className="bg-[#3F181C]">
+        <section className="bg-[#3F181C] pt-15!">
             <div className="mx-5! loading">
                 <div className="container mx-auto! grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-5 pb-15! pt-15!">
                     <div className="bg-[#1E1E1E] p-15!">

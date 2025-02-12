@@ -25,7 +25,7 @@ const About = () => {
         {id: 0 , img:img19 , dec: "Love their specialty drinks!" , name: "Sarah Johnson"},
     ]
     return (
-        <section className="bg-[#252525] pb-15!">
+        <section className="bg-[#252525] pb-15! pt-24!">
             <div className="loading">
                 <div className="flex flex-col items-center text-center text-white font-bold capitalize text-3xl pt-10! mb-10!">
                     <h1>About</h1>
